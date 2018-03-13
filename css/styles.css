@@ -1,3 +1,57 @@
-body {
-  background-color: grey;
+*{
+  font-family: 'Signika', sans-serif;
+}
+
+
+
+ body {
+    text-align: center;
+    background-color:#afb0b5;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color:#05093f;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color: #821353;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+input[type=submit]{
+  font-size:20px;
+  border-radius:7px;
+}
+input[type=submit]:hover{
+  background-color:#05093f;
+  color: white;
 }
